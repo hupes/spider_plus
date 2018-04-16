@@ -18,7 +18,6 @@ from scrapy_redis.pipelines import RedisPipeline
 from twisted.internet.threads import deferToThread
 
 
-
 class jtPipelines(RedisPipeline):
 
     def process_item(self, item, spider):
